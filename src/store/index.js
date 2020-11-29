@@ -29,5 +29,3 @@ export const StoreProvider = ({ children }) => {
     </Store.Provider>
   );
 };
-
-// export default StoreProvider;

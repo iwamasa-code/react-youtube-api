@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className={Style.header}>
         <div className={Style.item}>
-          <Link to="/">VideoTube</Link>
+          <Link to="/">Masa Tube</Link>
         </div>
         <div className={Style.item}>
           <form>
