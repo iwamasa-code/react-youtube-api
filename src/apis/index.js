@@ -2,6 +2,7 @@ import axios from "axios";
 
 const KEY = "AIzaSyCTsXtTgE3Uy--_czAI2_6nARXUEUsVB9s";
 
+//HTTPリクエストのURL
 const youtube = axios.create({
   baseURL: "https://www.googleapis.com/youtube/v3",
 });
@@ -24,7 +25,7 @@ export const fetchPopularData = async () => {
 };
 
 export const fetchSelectedData = async (id) => {
-  return await youtube.get("videos", {
+  return await youtube.get("/videos", {
     params: {
       ...params,
       id,

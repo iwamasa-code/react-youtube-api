@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/components/VideoPlay/VideoPlay.module.scss"
+    ],
+    "names": [],
+    "file": "VideoPlay.module.css"
+}

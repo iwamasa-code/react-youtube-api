@@ -1,0 +1,20 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  &:before {
+    display: block;
+    content: "";
+    padding-top: 56.2%;
+  }
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*アスペクト比を一定に保ちながらレスポンシブルを実行する方法*/
+/*擬似要素のbeforeを使う場合*/
+/*paddingを%で追加する事で高さを一定に保つことができる*/
