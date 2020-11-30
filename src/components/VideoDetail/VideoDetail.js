@@ -20,7 +20,7 @@ export const VideoDetail = () => {
   useEffect(() => {
     setSelectedVideo();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [location.search]);
 
   //三項演算子を使って、globalState.selectedがある時には動画を表示し、無い時にはno dataと表示する
   return globalState.selected && globalState.selected.id ? (
