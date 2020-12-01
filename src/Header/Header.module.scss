@@ -5,7 +5,7 @@
   display: flex;
   height: 56px;
   width: 100%;
-  background-color: #202020;
+  background-color: red;
   z-index: 99;
   a {
     color: white;
@@ -40,6 +40,7 @@
       text-indent: 0.5rem;
       border: #121212;
       background-color: white;
+      outline: none;
     }
     button {
       width: 20%;
