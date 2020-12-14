@@ -8,6 +8,7 @@ import { VideoGridItem } from "../components/VideoGridItem/VideoGridItem";
 const Top = () => {
   const { globalState, setGlobalState } = useContext(Store);
 
+  //マウント時のみの実行
   useEffect(() => {
     fetchPopularData().then((res) => {
       console.log("data", res);
